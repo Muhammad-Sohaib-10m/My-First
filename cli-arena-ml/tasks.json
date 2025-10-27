@@ -1,0 +1,62 @@
+[
+  {
+    "id": "task-001-jwt-auth",
+    "title": "Register/Login with JWT token rotation + replay prevention",
+    "directory": "tasks/task-001-jwt-auth",
+    "status": "completed_by_user_before_this_session"
+  },
+  {
+    "id": "task-002-ml-model-serving",
+    "title": "ML model serving — build /predict route with adversarial format handling",
+    "directory": "tasks/task-002-ml-predict/",
+    "status": "completed_by_user_before_this_session"
+  },
+  {
+    "id": "task-003-sql-injection-defense",
+    "title": "Secure User Search Against SQL Injection",
+    "directory": "tasks/task-003-sql-injection-defense",
+    "status": "generated"
+  },
+  {
+    "id": "task-004-multiprocessing-job-queue",
+    "title": "Implement CLI Batch Job Scheduler with Multiprocessing",
+    "directory": "tasks/task-004-multiprocessing-job-queue",
+    "status": "generated"
+  },
+  {
+    "id": "task-005-performance-optimization",
+    "title": "Optimize Inefficient Data Processing Route",
+    "directory": "tasks/task-005-performance-optimization",
+    "status": "generated"
+  },
+  {
+    "id": "task-006-test-coverage",
+    "title": "Add Missing Pytest Tests for Utility Module",
+    "directory": "tasks/task-006-test-coverage",
+    "status": "generated"
+  },
+  {
+    "id": "task-007-concurrency-bug",
+    "title": "Fix Concurrency Bug in Shared Resource Manager",
+    "directory": "tasks/task-007-concurrency-bug",
+    "status": "generated"
+  },
+  {
+    "id": "task-008-refactor-cleanup",
+    "title": "Refactor Monolithic Service into Modular Components",
+    "directory": "tasks/task-008-refactor-cleanup",
+    "status": "generated"
+  },
+  {
+    "id": "task-009-docker-caching",
+    "title": "Optimize Dockerfile for Build Caching and Image Size",
+    "directory": "tasks/task-009-docker-caching",
+    "status": "generated"
+  },
+  {
+    "id": "task-010-wildcard-ultra-hard",
+    "title": "Implement Advanced ML-Powered Secure Batch Processing System",
+    "directory": "tasks/task-010-wildcard-ultra-hard",
+    "status": "generated"
+  }
+]

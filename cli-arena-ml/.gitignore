@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+*. H
+*.manifest
+*.spec
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+pip-freeze.txt
+pip_freeze.txt
+requirements.lock
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+# *.log # Commented out as some tasks might involve log file manipulation or checks
+junit*.xml
+
+# Database files (if using file-based SQLite, ensure it's not committed)
+*.db
+*.sqlite
+*.sqlite3
+app.db
+auth.db
+# If your db file has a specific name and location (e.g., db/myapp_data.db), add it:
+# db/myapp_data.db
+# For this benchmark, tasks might create .db files in various locations.
+# It's safer to be specific if a DB file *should* be ignored.
+# The main application DB configured in `src/app/core/config.py` (if file-based) should be ignored.
+# Example: if SQLALCHEMY_DATABASE_URL = "sqlite:///./app.db", then "app.db" should be here.
+# If it's "sqlite:///./db/main.db", then "db/main.db" should be here.
+
+# Secrets and sensitive configuration (should use environment variables or a vault)
+.env
+*.env*
+secrets.yml
+secret_key.txt
+credentials.json
+*.pem
+*.key
+
+# Docker cache / build artifacts (if any local ones are generated outside Docker context)
+docker-compose.override.yml
+
+# Task-specific generated files
+# It's generally better if tasks output to a .gitignore'd directory like 'output/' or similar.
+# tasks/task-*/resources/batch_output_results.json # Example from Task 10 if run locally
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Log files (general)
+# *.log # Re-commenting, as specific log interactions might be part of tasks.
+# logs/ # If a dedicated logs directory is standard.
+
+# MyPy cache
+.mypy_cache/
+
+# Ruff cache
+.ruff_cache/
+.flake8_cache/
+
+# Pyright cache
+.pyright_cache/
+
+# Node specific (if any JS/TS parts are ever added)
+node_modules/
+package-lock.json
+yarn.lock
+```
